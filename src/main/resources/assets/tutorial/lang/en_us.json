@@ -1,4 +1,6 @@
 {
   "item.tutorial.custom_item" : "Raw Item",
-  "block.tutorial.custom_block" : "Raw Block"
+  "block.tutorial.custom_block" : "Raw Block",
+
+  "itemgroup.abc" : "abc group"
 }
