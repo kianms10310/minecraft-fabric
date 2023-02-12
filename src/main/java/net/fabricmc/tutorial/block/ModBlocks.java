@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-    public static final Block CUSTOM_BLOCK = registerBlock("custom_block", new Block(FabricBlockSettings.of(Material.METAL).strength(4f)));
+    public static final Block CUSTOM_BLOCK = registerBlock("custom_block", new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

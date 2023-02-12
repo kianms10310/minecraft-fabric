@@ -3,6 +3,7 @@ package net.fabricmc.tutorial;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.tutorial.block.ModBlocks;
 import net.fabricmc.tutorial.item.ModItems;
+import net.fabricmc.tutorial.item.group.ModItemGroup;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,6 +20,7 @@ public class TutorialMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
+		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}

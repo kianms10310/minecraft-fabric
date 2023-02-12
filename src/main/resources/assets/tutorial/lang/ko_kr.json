@@ -1,0 +1,6 @@
+{
+  "item.tutorial.custom_item" : "커스텀 아이템",
+  "block.tutorial.custom_block" : "커스텀 블록",
+
+  "itemgroup.abc" : "커스텀 그룹"
+}
